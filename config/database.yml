@@ -1,0 +1,12 @@
+default: &default
+  adapter:  mysql
+  database: adip
+  username: root
+  password: cps-pt
+  host:     localhost
+  socket:  <%= `mysql_config --socket`.chomp! rescue nil %>
+  encoding: utf8
+
+
+development: &singlevm
+  <<: *default
