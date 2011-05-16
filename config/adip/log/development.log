@@ -1,0 +1,510 @@
+# Logfile created on Sun May 15 08:59:32 +0900 2011[0515090120][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-15 09:01:20) [GET]
+[0515090120][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-15 09:01:20) [GET]
+[0515090120][FTL::] 
+
+MissingSourceFile (no such file to load -- mysql):
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:63:in `mysql_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:121:in `retrieve_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:113:in `connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/request_handler.rb:66:in `perform_action'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/request_handler.rb:51:in `process_request'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:180:in `start'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/helper-scripts/passenger-spawn-server:99
+
+[0515090120][DBG::] Rendered /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (145.1ms)
+[0515090120][DBG::] Rendered /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (1.0ms)
+[0515090120][INF::] Rendering /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+[0515091621][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-15 09:16:21) [GET]
+[0515091621][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-15 09:16:21) [GET]
+[0515091621][FTL::] 
+
+MissingSourceFile (no such file to load -- mysql):
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:63:in `mysql_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:121:in `retrieve_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:113:in `connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/request_handler.rb:66:in `perform_action'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/request_handler.rb:51:in `process_request'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:180:in `start'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/helper-scripts/passenger-spawn-server:99
+
+[0515091621][DBG::] Rendered /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (66.3ms)
+[0515091621][DBG::] Rendered /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.9ms)
+[0515091621][INF::] Rendering /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+[0515091641][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-15 09:16:41) [GET]
+[0515091641][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-15 09:16:41) [GET]
+[0515091641][FTL::] 
+
+Mysql::Error (Access denied for user 'root'@'localhost' (using password: YES)):
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:548:in `real_connect'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:548:in `connect'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:198:in `initialize'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:74:in `new'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:74:in `mysql_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:121:in `retrieve_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:113:in `connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/request_handler.rb:66:in `perform_action'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/request_handler.rb:51:in `process_request'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:180:in `start'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/helper-scripts/passenger-spawn-server:99
+
+[0515091641][DBG::] Rendered /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (41.9ms)
+[0515091641][DBG::] Rendered /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.9ms)
+[0515091641][INF::] Rendering /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+[0515091717][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-15 09:17:17) [GET]
+[0515091717][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-15 09:17:17) [GET]
+[0515091717][FTL::] 
+
+Mysql::Error (Unknown database 'memory_development'):
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:548:in `real_connect'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:548:in `connect'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:198:in `initialize'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:74:in `new'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:74:in `mysql_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:121:in `retrieve_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:113:in `connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/request_handler.rb:66:in `perform_action'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/request_handler.rb:51:in `process_request'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:180:in `start'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/helper-scripts/passenger-spawn-server:99
+
+[0515091717][DBG::] Rendered /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (45.0ms)
+[0515091717][DBG::] Rendered /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.9ms)
+[0515091717][INF::] Rendering /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+[0515091932][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-15 09:19:32) [GET]
+[0515091932][DBG::]   [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+[0515091932][DBG::]   [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[0515091932][INF:80:] Completed in 1ms (View: 0, DB: 1) | 200 OK [http://localhost/server/hello]
+[0515092045][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-15 09:20:45) [GET]
+[0515092045][DBG::]   [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+[0515092045][DBG::]   [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[0515092045][INF:80:] Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/server/hello]
+[0516050900][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-16 05:09:00) [GET]
+[0516050901][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-16 05:09:01) [GET]
+[0516050901][FTL::] 
+
+Mysql::Error (Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111)):
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:548:in `real_connect'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:548:in `connect'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:198:in `initialize'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:74:in `new'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/mysql_adapter.rb:74:in `mysql_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:121:in `retrieve_connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:113:in `connection'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/request_handler.rb:66:in `perform_action'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/request_handler.rb:51:in `process_request'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:180:in `start'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/helper-scripts/passenger-spawn-server:99
+
+[0516050901][DBG::] Rendered /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (48.1ms)
+[0516050901][DBG::] Rendered /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.8ms)
+[0516050901][INF::] Rendering /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+[0516051028][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-16 05:10:28) [GET]
+[0516051029][DBG::]   [4;36;1mSQL (1.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+[0516051029][DBG::]   [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[0516051029][INF:80:] Completed in 1ms (View: 0, DB: 1) | 200 OK [http://localhost/server/hello]
+[0516051228][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-16 05:12:28) [GET]
+[0516051228][DBG::]   [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+[0516051228][DBG::]   [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[0516051228][INF:80:] Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/server/hello]
+[0516051325][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-16 05:13:25) [GET]
+[0516051325][DBG::]   [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+[0516051325][DBG::]   [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[0516051325][INF:80:] Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/server/hello]
+[0516051414][INF::] 
+
+Processing ServerController#hello (for 127.0.0.1 at 2011-05-16 05:14:14) [GET]
+[0516051414][DBG::]   [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+[0516051414][DBG::]   [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[0516051414][INF:80:] Completed in 1ms (View: 0, DB: 0) | 200 OK [http://localhost/server/hello]
+[0516051418][INF:80:] 
+
+Processing ServerController#hellol (for 127.0.0.1 at 2011-05-16 05:14:18) [GET]
+[0516051418][DBG:80:]   [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+[0516051418][DBG:80:]   [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[0516051418][FTL:80:] 
+
+ActionController::UnknownAction (No action responded to hellol. Actions: hello and set_logger_port):
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/request_handler.rb:66:in `perform_action'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/request_handler.rb:51:in `process_request'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:180:in `start'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/helper-scripts/passenger-spawn-server:99
+
+[0516051418][INF:80:] Rendering /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+[0516051804][INF::] 
+
+Processing ServerController#hellol (for 127.0.0.1 at 2011-05-16 05:18:04) [GET]
+[0516051805][DBG::]   [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+[0516051805][DBG::]   [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+[0516051805][FTL:80:] 
+
+ActionController::UnknownAction (No action responded to hellol. Actions: hello and set_logger_port):
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/request_handler.rb:66:in `perform_action'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/request_handler.rb:51:in `process_request'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/utils.rb:479:in `safe_fork'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:180:in `start'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    /home/wei/.rvm/gems/ruby-1.8.6-p420/gems/passenger-3.0.7/helper-scripts/passenger-spawn-server:99
+
+[0516051805][INF:80:] Rendering /home/wei/.rvm/rubies/ruby-1.8.6-p420/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
